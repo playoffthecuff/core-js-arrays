@@ -40,7 +40,7 @@ function getIntervalArray(start, end) {
 function sumArrays(arr1, arr2) {
   return Array.from(
     Array(Math.max(arr1.length, arr2.length)),
-    (_, i) => ~~arr1[i] + ~~arr2[i]
+    (_, i) => (arr1[i] ?? 0) + (arr2[i] ?? 0)
   );
 }
 
