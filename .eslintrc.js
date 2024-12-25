@@ -21,6 +21,7 @@ module.exports = {
         endOfLine: 'auto',
       },
     ],
+    'no-bitwise': 0,
   },
   plugins: ['prettier'],
   noInlineConfig: true,
